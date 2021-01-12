@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Willian Nascimento - Infnet Aluno">
+		<meta name="description" content="Teste de Perfomance 3 do Instituto Infnet">
+		<meta name="keywords" content="html, html5">
+
+		<link rel="stylesheet" type="text/css" href="css/estiloTP3.css">
+		<script src="js/modernizr-custom.js"></script>
+		<title>Kombi Coffee - Contato</title>
+	</head>
+	<body>
+		<div id="container">
+            <header>
+				<div>
+					<h1 class="displaynone">Kombi Coffee</h1>
+				</div>
+
+				<div class="logoOnTop">
+					<img src="images/logo_kombi_coffee.png" alt="Logotipo Kombi Coffee." title="Logotipo Kombi Coffee"/>
+				</div>
+
+				<nav class="menu">
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="local.html">LOCAL</a></li>
+						<li><a href="cardapio.html">CARDAPIO</a></li>
+						<li><a href="eventos.html">EVENTOS</a></li>
+						<li><a href="contato.html">CONTATO</a></li>
+					</ul>
+				</nav>
+		
+				<div id="div_banner">
+					<h2>O <strong>café</strong> que chega até você!</h2>
+					<div class="bannerprincipal">
+						<img class="bannerprincipal" src="images/banner.jpg" alt="Banner de uma xícara de café" title="Banner visual"/>
+					</div>
+
+					<div class="flutuante">
+						<p class="textoBanner">Cafés super selecionados e com muito mais sabor</p>
+					</div>
+				</div>
+			</header>
+
+			<main class="tudo">
+				<section id="contato">
+					<h3>Contato</h3>
+
+					<form  action="https://formspree.io/xjvaqjpq" method="POST">
+                        <div>
+							<label for="nome">Nome</label>
+						</div>
+						<div>
+							<input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+						</div>
+                    
+                        <div>
+                            <label for="email">E-mail</label>
+						</div>
+						<div>
+							<input type="email" name="email" id="email" placeholder="Digite seu email" required>
+						</div>
+                    
+                        <div>
+                            <label for="assunto">Assunto</label>
+						</div>
+						<div>
+							<input type="text" name="assunto" id="assunto" value="Elogio" required>
+						</div>
+                    
+                        <div>
+							<label for="mensagem">Deixe sua mensagem</label>
+						</div>
+						<div>
+							<textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+						</div>
+                    
+                        <div class="button">
+                            <!-- <button type="submit">Enviar</button> -->
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form>
+				</section>
+			</main>
+
+			<footer>
+				Copyright 2020, Willian Nascimento®
+			</footer>
+		</div>
+	</body>
+</html>

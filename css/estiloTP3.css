@@ -1,0 +1,292 @@
+/* @import url("https://gist.github.com/DavidWells/18e73022e723037a50d6#file-reset-css"); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('reset.css');
+
+body{
+    background-color: whitesmoke;
+    /* font-family: Verdana, sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+}
+
+header{
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.logoOnTop{
+    background-color: white;
+}
+
+#div_banner{
+    position: relative;
+}
+
+.flutuante{
+    background-color: rgba(88, 44, 44, 0.6);
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 34%;
+    left: 5%;
+}
+
+p.textoBanner{
+    color: white;
+    font-size: 21px;
+    padding: 30% 10% 30% 10%;
+}
+
+div{
+  display: block;
+}
+
+.menu{
+    background-color: rgb(88, 44, 44);
+    text-align: center;
+    font-size: 16px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+.menu ul li a{
+    color: white;
+    padding: 0px 45px;
+    text-decoration: none;
+    margin: -40px;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.bannerprincipal{
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tudo{
+    min-height: 450px;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+.titulos{
+    width: 50%;
+    height: 30px;
+}
+
+.menor{
+    width: 14%;
+    padding-top: 10px;
+}
+
+.maior{
+    width: 35%;
+    padding-top: 10px;
+}
+
+.copyright{
+    /* border-top: black 1px solid; */
+    padding-top: 10px;
+    position:absolute;
+    bottom:0; 
+    width:960px;
+    margin-top: 10px;
+    text-align: right;
+    align-self: baseline;
+}
+
+footer{
+    text-align: right;
+    padding-top: 10px;
+    bottom: 0;
+    width:960px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4{
+    color: rgb(88, 44, 44);
+}
+
+.displaynone{
+    /* visibility: hidden; */
+    display: none;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+h3{
+    font-style: italic;
+    font-size: 20px;
+}
+
+h3.titulo{
+    margin: 1%;
+}
+
+h4{
+    padding-top: 25px;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+.colspancardapio{
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(182, 107, 46, 0.8);
+}
+
+.colspanlegendatabela{
+    background-color: rgba(182, 107, 46, 0.8);
+    color: white;
+    text-align: center;
+}
+
+.itenstabela{
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 1.3em;
+}
+
+table, td{
+    vertical-align: top;
+    padding: 10px;
+    margin: 1%;
+}
+
+.trCorSim{
+    background-color: rgba(182, 107, 46, 0.4);
+}
+
+.fototabela{
+    width: 20%;
+}
+
+#contato{
+    text-align: center;
+    /* min-height: 400px; */
+}
+
+/* Preferi deixar a cor de fundo no formulário do que no id contato */
+form{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid yellow; */
+    background-color: rgba(182, 107, 46, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label{
+    color: rgb(88, 44, 44);
+    font-size: 1.1em;
+    font-weight: bold;}
+
+input{
+    width: 90%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+input[type='submit']{
+    width: 90%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgba(88, 44, 44, 0.8);
+    color: white;
+    font-size: 16px;
+}
+
+textarea{
+    width: 90%;
+    border-radius: 5px;
+}
+
+div.button{
+    text-align: center;
+}
+
+button{
+    width: 70%;
+    height: 25px;
+    border-radius: 0px;
+    background-color: tomato;
+    color: wheat;
+    font-size: 16px;
+}
+
+.paginaLocal{
+    display: flex;
+}
+
+iframe{
+    border: brown 1px solid;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 450px;
+    border:0;
+}
+
+a:link {
+    color: rgb(146, 104, 41);
+    /* font-weight: bolder; */
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(122, 22, 126);
+  }
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  a:active {
+    color: blue;
+  }
+
+  .strong{
+      font-weight: bolder;
+  }
+
+  .em{
+    font-size: 1.1em;
+  }
