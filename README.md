@@ -1,6 +1,6 @@
 # Kombi Coffee
 ### Site desenvolvido conforme as rúbricas do Teste de Performance 3 de Interfaces com HTML e CSS
-### https://anathsu.github.io/kombicoffee/
+### Site https://anathsu.github.io/kombicoffee/
 
 
 
